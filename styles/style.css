@@ -73,6 +73,21 @@ a {
 .header__nav-link {
   color: #FFFFFF;
   font-weight: 500;
+  position: relative;
+  line-height: 1.3;
+}
+.header__nav-link:after {
+  content: "";
+  position: absolute;
+  height: 1px;
+  width: 0;
+  bottom: -2px;
+  left: 0;
+  background-color: #fff;
+  transition: 0.3s;
+}
+.header__nav-link:hover:after {
+  width: 100%;
 }
 .header__nav-list {
   display: flex;
