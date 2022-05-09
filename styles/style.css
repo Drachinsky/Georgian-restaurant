@@ -48,6 +48,17 @@ a {
   padding: 0 15px;
 }
 
+.main {
+  background-image: url(../image/section/black.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 78%;
+}
+
+.section__best {
+  min-height: 100vh;
+}
+
 .hero {
   background-image: url(../image/hero/hero.jpg);
   background-repeat: no-repeat;
@@ -181,6 +192,67 @@ a {
 .btn:hover {
   background-color: rgba(184, 33, 33, 0.1);
   border-color: rgba(184, 33, 33, 0.1);
+}
+
+.box-head {
+  text-align: center;
+  margin-bottom: 60px;
+}
+.box-head__caption {
+  font-family: "Noto Sans", Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 1.4;
+  margin-bottom: 25px;
+  color: #FFFFFF;
+}
+.box-head__desk {
+  max-width: 632px;
+  margin: 0 auto;
+}
+
+.section__best {
+  padding: 70px 0 70px 0;
+}
+.section__best-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: -15px;
+}
+.section__best-picture {
+  display: flex;
+}
+.section__best-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section__best-pic {
+  width: 287px;
+  height: 287px;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.65);
+  object-fit: cover;
+  transition: 0.5s;
+  margin-bottom: 40px;
+}
+.section__best-pic:hover {
+  transform: scale(1.1);
+  background-color: #B82121;
+}
+.section__best-text {
+  font-family: "NotoSans", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.3;
+  color: #FFFFFF;
+  min-width: 262px;
+  text-align: center;
+  padding: 0 42px;
+}
+.section__best-text:hover {
+  color: #B82121;
 }
 
 @media (max-width: 1024px) {
