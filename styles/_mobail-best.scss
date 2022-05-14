@@ -1,0 +1,26 @@
+@media (max-width: 768px) {
+    .section__best {
+
+        &-box {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        &-text {
+            padding: 0 220px;
+        }
+
+       
+    }
+   
+}
+
+@media (max-width: 425px) {
+    .section__best {
+
+        &-text {
+            padding: 0 45px;
+        }
+
+    }
+}
