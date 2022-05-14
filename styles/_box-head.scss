@@ -18,3 +18,36 @@
         
     }
 }
+
+@media (max-width: 768px) {
+    .box-head {
+
+        &__desk {
+            max-width: 542px;
+        }
+    }
+} 
+
+@media (max-width: 425px) {
+    .box-head {
+
+        &__caption {
+            font-size: 28px;
+        }
+
+        &__desk {
+            max-width: 355px;
+        }
+    }
+}
+
+@media (max-width: 425px) {
+    .box-head {
+
+        &__caption {
+            font-size: 25px;
+        }
+
+       
+    }
+}
