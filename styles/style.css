@@ -402,5 +402,10 @@ a {
     padding: 0 45px;
   }
 }
+@media (max-width: 320px) {
+  .section__best-text {
+    font-size: 17px;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
