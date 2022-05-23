@@ -1,6 +1,6 @@
 .btn {
-    border: 1px solid #B82121;
-    background-color: #B82121;
+    @include border(1px, $color_red);
+    background-color: $color_red;
     border-radius: 5px;
     color: #FFFFFF;
     font-size: 14px;
