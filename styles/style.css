@@ -81,6 +81,7 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 78%;
+  overflow: hidden;
 }
 .hero__wrap {
   min-height: 100vh;
