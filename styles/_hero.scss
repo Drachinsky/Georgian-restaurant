@@ -8,6 +8,8 @@
     
     &__wrap {
         min-height: 100vh;
+        display: flex;
+        flex-direction: column;
     }
 
 }
@@ -17,7 +19,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 13px 0 70px 0;
+    padding-top: 13px;
 
     &__logo {
         line-height: 0;
@@ -31,7 +33,7 @@
     
 
     &__nav {
-        display: flex;
+        
 
         &-link {
             color: #FFFFFF;
@@ -58,8 +60,7 @@
 
         &-list {
             display: flex;
-            justify-content: space-between;
-            align-items: center;
+           
 
           
         }
@@ -74,6 +75,8 @@
 
     &__social {
         display: flex;
+        margin-left: auto;
+        margin-right: 15px;
 
         &-item {
             display: flex;
@@ -85,10 +88,19 @@
            
         }
 
-        &-list {
+        &-cell {
             display: flex;
             justify-content: space-between;
             align-items: center;
+
+            &:hover {
+                transform: scale(1.2);      
+
+            }       
+        }
+
+        &-list {
+            display: block;
 
             &:hover {
                 transform: scale(1.2);      
@@ -103,6 +115,8 @@
         }
 
         &-number {
+            font-size: 21px;
+            width: 191px;
             margin-left: 6px;
             color: #FFFFFF;
                        
@@ -116,14 +130,19 @@
 }
 
 .content {
+    flex-grow: 1;
     display: flex;
-    padding: 70px 0 176px 0;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 140px 0 176px 0;
     
 
     &__box {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
+        
+        
 
         &-caption {
             font-weight: 900;
