@@ -142,12 +142,9 @@
 @media (max-width: 375px) {
     .header {
 
-        &__social {
-            
-
-            &-item {
-                margin-left: 10px;
-            }
+        &__social {            
+            margin-left: 15px;
+           
         }
     }
 }
@@ -162,6 +159,10 @@
             &-item {
                 margin-left: 7px;
             }
+        }
+
+        &__btn-menu {
+            margin-left: 4px;
         }
     }
 
