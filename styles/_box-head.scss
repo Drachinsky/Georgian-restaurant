@@ -22,8 +22,12 @@
 @media (max-width: 768px) {
     .box-head {
 
+        &__caption {
+            font-size: 46px;
+        }
+
         &__desk {
-            max-width: 542px;
+            max-width: 626px;
         }
     }
 } 
@@ -41,11 +45,15 @@
     }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 320px) {
     .box-head {
 
         &__caption {
-            font-size: 25px;
+            font-size: 23px;
+        }
+
+        &__desk {
+            font-size: 13px;
         }
 
        

@@ -1,13 +1,27 @@
-@media (max-width: 768px) {
-    .section__best {
+@media (max-width: 1024px) {
+    .section {
 
-        &-box {
-            flex-wrap: wrap;
-            justify-content: center;
+        &__best {
+
+            &-text {
+                font-size: 17px;
+            }
         }
+    }
+}
 
-        &-text {
-            padding: 0 220px;
+@media (max-width: 768px) {
+    .section {
+
+        &__best {
+
+            &-title {
+                padding: 40px 1px;
+            }
+
+            &-text {
+                font-size: 12px;
+            }
         }
 
        
@@ -18,10 +32,18 @@
 @media (max-width: 425px) {
     .section__best {
 
-        &-text {
-            padding: 0 45px;
+        &-box {
+            flex-wrap: wrap;
         }
 
+        &-col {
+            width: 100%;
+        }
+
+        &-text {
+            font-size: 18px;
+        }
+      
     }
 }
 
