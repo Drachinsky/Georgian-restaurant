@@ -75,8 +75,7 @@
 
     &__social {
         display: flex;
-        margin-left: auto;
-        margin-right: 15px;
+       
 
         &-item {
             display: flex;
@@ -85,6 +84,9 @@
             line-height: 0;
             margin-left: 15px;
 
+            &:first-child {
+                margin-left: 0;
+            }
            
         }
 
