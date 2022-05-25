@@ -31,19 +31,18 @@ a {
 }
 
 
-.container {
-    max-width: 1275px;
-    margin: 0 auto;
-    padding: 0 15px;
-}
-
-
 .main {
     background-image: url(../image/section/black.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 78%;
     overflow: hidden;
+}
+
+.container {
+    max-width: 1275px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 
 .section__best {

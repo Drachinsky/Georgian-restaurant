@@ -42,18 +42,18 @@ a {
   transition: 0.3s;
 }
 
-.container {
-  max-width: 1275px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
-
 .main {
   background-image: url(../image/section/black.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 78%;
   overflow: hidden;
+}
+
+.container {
+  max-width: 1275px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 .section__best {
@@ -129,8 +129,6 @@ a {
 }
 .header__social {
   display: flex;
-  margin-left: auto;
-  margin-right: 15px;
 }
 .header__social-item {
   display: flex;
@@ -138,6 +136,9 @@ a {
   align-items: center;
   line-height: 0;
   margin-left: 15px;
+}
+.header__social-item:first-child {
+  margin-left: 0;
 }
 .header__social-cell {
   display: flex;
