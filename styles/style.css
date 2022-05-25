@@ -146,7 +146,7 @@ a {
   align-items: center;
 }
 .header__social-cell:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 .header__social-list {
   display: block;
@@ -395,8 +395,8 @@ a {
   }
 }
 @media (max-width: 375px) {
-  .header__social-item {
-    margin-left: 10px;
+  .header__social {
+    margin-left: 15px;
   }
 }
 @media (max-width: 320px) {
@@ -405,6 +405,9 @@ a {
   }
   .header__social-item {
     margin-left: 7px;
+  }
+  .header__btn-menu {
+    margin-left: 4px;
   }
 
   .content__box-caption {
