@@ -80,13 +80,14 @@ a {
   background-image: url(../image/hero/hero.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 78%;
+  background-position: 78% 50%;
   overflow: hidden;
 }
 .hero__wrap {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  gap: 140px;
 }
 
 .header {
@@ -123,9 +124,7 @@ a {
 }
 .header__nav-list {
   display: flex;
-}
-.header__nav-item {
-  padding: 0 30px;
+  gap: 60px;
 }
 .header__social {
   display: flex;
@@ -159,8 +158,8 @@ a {
   height: 20px;
 }
 .header__social-number {
-  font-size: 21px;
-  width: 191px;
+  font-size: 20px;
+  max-width: 191px;
   margin-left: 6px;
   color: #FFFFFF;
 }
@@ -173,7 +172,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 140px 0 176px 0;
+  padding: 0 0 176px 0;
 }
 .content__box {
   display: flex;
@@ -182,7 +181,7 @@ a {
 }
 .content__box-caption {
   font-weight: 900;
-  font-size: 55px;
+  font-size: 57px;
   max-width: 607px;
   margin-bottom: 25px;
 }
@@ -322,9 +321,6 @@ a {
   .header__social-item {
     margin-left: 13px;
   }
-  .header__social-number {
-    display: none;
-  }
   .header__btn-menu {
     display: block;
     width: 30px;
@@ -364,6 +360,29 @@ a {
     top: 9px;
   }
 }
+@media (max-width: 768px) {
+  .header__social-number {
+    display: none;
+  }
+
+  .content__box-caption {
+    font-size: 44px;
+    max-width: 460px;
+  }
+  .content__box-desc {
+    font-size: 13px;
+    max-width: 406px;
+  }
+}
+@media (max-width: 480px) {
+  .content__box-caption {
+    font-size: 23px;
+    max-width: 225px;
+  }
+  .content__box-desc {
+    max-width: 218px;
+  }
+}
 @media (max-width: 425px) {
   .hero {
     background-image: url(../image/hero/hero2.jpg);
@@ -377,7 +396,7 @@ a {
   .content {
     align-items: center;
     justify-content: center;
-    padding: 140px 0 150px 0;
+    padding: 0 0 150px 0;
   }
   .content__box {
     align-items: center;
@@ -396,7 +415,14 @@ a {
 }
 @media (max-width: 375px) {
   .header__social {
-    margin-left: 15px;
+    margin-right: 0;
+  }
+
+  .content__box-caption {
+    font-size: 29px;
+  }
+  .content__box-desc {
+    font-size: 13px;
   }
 }
 @media (max-width: 320px) {
@@ -408,6 +434,7 @@ a {
   }
   .header__btn-menu {
     margin-left: 4px;
+    margin-right: 4px;
   }
 
   .content__box-caption {
