@@ -1,0 +1,17 @@
+@media (max-width: 425px) {
+    .swiper-button-next {
+        right: 20px;
+        transform: rotate(90deg);
+    }
+
+    .swiper-button-prev {
+        left: 20px;
+        transform: rotate(90deg);
+    }
+
+    .swiper-slide__img {
+        height: 300px;
+        object-fit: none;
+    }
+     
+}
